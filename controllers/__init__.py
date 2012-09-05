@@ -205,32 +205,4 @@ class ChardetImport(Import):
             jsonp, simplejson.dumps({'error': {'message':msg}}))
 
 
-#def wrap_detect_data(func):
-    #def _func(*args, **kwds):
-        ##if kwds.get('csvcode', 'utf-8') == 'auto':
-            ##u = UniversalDetector()
-            ##for line in args[2]:
-                ##u.feed(line)
-            ##u.close()
-            ##result = u.result
-            ##print result
-        #print args, kwds
-        #print 'aaaaaaaaaaaaaaaaaaa'
-        #func(*args, **kwds)
-    #return _func
-##Import.detect_data = openerpweb.httprequest(Import.detect_data)
-#Import.detect_data = wrap_detect_data(Import.detect_data)
-#Import.detect_data = openerpweb.httprequest(Import.detect_data)
-
-#def wrap_import_data(func):
-    #def _func(*args, **kwds):
-        #func(*args, **kwds)
-    #return _func
-#Import.import_data = wrap_detect_data(Import.import_data)
-
-
-
-
-
-
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
