@@ -1,6 +1,13 @@
 openerp-web-import-chardet
 ==========================
 
+.. _fig_0601:
+.. figure:: http://www.openerp-china.org/templates/image/openerp-logo.png
+
+   插图 6-1 神奇的2
+   
+   
+
 Use python chardet module to detect import csv file encoding.
 And remove BOM header in UTF8 file.
 
